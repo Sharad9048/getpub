@@ -1,6 +1,10 @@
 import requests, time, os, public_ip
 
 import secret
+"""
+read_key is read api key to read data from things speak
+write-key is write api key to write data to things speak
+"""
 
 read_url = "https://api.thingspeak.com/channels/2569331/feeds.json?api_key=" + secret.read_key + "&results=1"
 
